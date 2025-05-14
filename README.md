@@ -1,20 +1,20 @@
-# mcp
-## mcp-mvp
-mcp 最小化可行性server
+# MCP
+## MCP-mvp
+MCP 最小化可行性Server
 ```
 cd mcp-mvp
 npm install
 npm run build
 ```
 
-## weather
-天气查询mcp
+## Weather
+天气查询MCP Server
 ```
 cd weather
 npm install
 npm run build
 ```
-#### mcp 配置
+#### MCP 配置
 ```
 {
   "mcpServers": {
@@ -23,7 +23,13 @@ npm run build
       "args": [
         "D:\\xx\\xx\\xx\\build\\index.js" // 改成你的路径
       ]
-    }
+    },
+  "weather": {
+      "command": "node",
+      "args": [
+        "D:\\xx\\xx\\xx\\build\\index.js" // 改成你的路径
+      ]
+    },
   }
 }
 ```
