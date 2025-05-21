@@ -1,6 +1,6 @@
 # MCP
 ## MCP-mvp
-MCP mvp Server
+mvp MCP Server
 ```
 cd mcp-mvp
 npm install
